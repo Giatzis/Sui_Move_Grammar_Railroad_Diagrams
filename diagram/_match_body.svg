@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="523" height="85">
+   <defs>
+      <style type="text/css">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #332900; stroke-width: 1;}
+    .bold-line            {stroke: #141000; shape-rendering: crispEdges; stroke-width: 2;}
+    .thin-line            {stroke: #1F1800; shape-rendering: crispEdges}
+    .filled               {fill: #332900; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #141000;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1A1400;
+                            font-weight: normal;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1F1800;
+                            font-weight: normal;
+                          }
+    rect, circle, polygon {fill: #332900; stroke: #332900;}
+    rect.terminal         {fill: #FFDB4D; stroke: #332900; stroke-width: 1;}
+    rect.nonterminal      {fill: #FFEC9E; stroke: #332900; stroke-width: 1;}
+    rect.text             {fill: none; stroke: none;}
+    polygon.regexp        {fill: #FFF4C7; stroke: #332900; stroke-width: 1;}
+  </style>
+   </defs>
+   <polygon points="9 33 1 29 1 37"/>
+   <polygon points="17 33 9 29 9 37"/>
+   <rect x="31" y="19" width="28" height="32" rx="10"/>
+   <rect x="29"
+         y="17"
+         width="28"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="39" y="37">{</text>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#match_arm"
+      xlink:title="match_arm">
+      <rect x="119" y="19" width="92" height="32"/>
+      <rect x="117" y="17" width="92" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="127" y="37">match_arm</text>
+   </a>
+   <rect x="231" y="19" width="24" height="32" rx="10"/>
+   <rect x="229"
+         y="17"
+         width="24"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="239" y="37">,</text>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#match_arm"
+      xlink:title="match_arm">
+      <rect x="335" y="51" width="92" height="32"/>
+      <rect x="333" y="49" width="92" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="343" y="69">match_arm</text>
+   </a>
+   <rect x="467" y="19" width="28" height="32" rx="10"/>
+   <rect x="465"
+         y="17"
+         width="28"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="475" y="37">}</text>
+   <path class="line"
+         d="m17 33 h2 m0 0 h10 m28 0 h10 m40 0 h10 m92 0 h10 m0 0 h10 m24 0 h10 m-176 0 l20 0 m-1 0 q-9 0 -9 -10 l0 -12 q0 -10 10 -10 m156 32 l20 0 m-20 0 q10 0 10 -10 l0 -12 q0 -10 -10 -10 m-156 0 h10 m0 0 h146 m-196 32 h20 m196 0 h20 m-236 0 q10 0 10 10 m216 0 q0 -10 10 -10 m-226 10 v14 m216 0 v-14 m-216 14 q0 10 10 10 m196 0 q10 0 10 -10 m-206 10 h10 m0 0 h186 m40 -34 h10 m0 0 h102 m-132 0 h20 m112 0 h20 m-152 0 q10 0 10 10 m132 0 q0 -10 10 -10 m-142 10 v12 m132 0 v-12 m-132 12 q0 10 10 10 m112 0 q10 0 10 -10 m-122 10 h10 m92 0 h10 m20 -32 h10 m28 0 h10 m3 0 h-3"/>
+   <polygon points="513 33 521 29 521 37"/>
+   <polygon points="513 33 505 29 505 37"/>
+</svg>
