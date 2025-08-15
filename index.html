@@ -1,0 +1,1036 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="generator" content="Railroad Diagram Generator 2.5">
+      <style type="text/css">
+    ::-moz-selection
+    {
+      color: #FFFCF0;
+      background: #0F0C00;
+    }
+    ::selection
+    {
+      color: #FFFCF0;
+      background: #0F0C00;
+    }
+    body
+    {
+      font: normal 12px Verdana, sans-serif;
+      color: #0F0C00;
+      background: #FFFCF0;
+    }
+    .ebnf a
+    {
+      text-decoration: none;
+    }
+    .ebnf a:hover
+    {
+      color: #050400;
+      text-decoration: underline;
+    }
+    .signature
+    {
+      color: #806600;
+      font-size: 11px;
+      text-align: right;
+    }
+    a:link, a:visited
+    {
+      color: #0F0C00;
+    }
+    a:link.signature, a:visited.signature
+    {
+      color: #806600;
+    }
+    div.ebnf
+    {
+      padding: 10px;
+      background: #FFF6D1;
+      width: 992px;
+    }
+    .ebnf div
+    {
+      padding-left: 13ch;
+      text-indent: -13ch;
+    }
+    .ebnf code
+    {
+      font:12px SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+    }
+  </style>
+      <link rel="stylesheet" href="chrome-extension://ihcjicgdanjaechkgeegckofjjedodee/app/content-style.css">
+   </head>
+   <body>
+      <p style="font-size: 14px; font-weight:bold"><a name="source_file">source_file:</a></p><img border="0" src="diagram/source_file.svg" height="57" width="233" usemap="#source_file.map"><map name="source_file.map"><area shape="rect" coords="49,1,183,33" href="#module_definition" title="module_definition"></map><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="use_declaration">use_declaration:</a></p><img border="0" src="diagram/use_declaration.svg" height="169" width="491" usemap="#use_declaration.map"><map name="use_declaration.map"><area shape="rect" coords="233,1,303,33" href="#use_fun" title="use_fun"><area shape="rect" coords="233,45,331,77" href="#use_module" title="use_module"><area shape="rect" coords="233,89,391,121" href="#use_module_member" title="use_module_member"><area shape="rect" coords="233,133,397,165" href="#use_module_members" title="use_module_members"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#block" title="block">block</a></li>
+            <li><a href="#module_body" title="module_body">module_body</a></li>
+            <li><a href="#spec_body" title="spec_body">spec_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="use_fun">use_fun:</a></p><img border="0" src="diagram/use_fun.svg" height="37" width="633" usemap="#use_fun.map"><map name="use_fun.map"><area shape="rect" coords="91,1,207,33" href="#module_access" title="module_access"><area shape="rect" coords="281,1,397,33" href="#module_access" title="module_access"><area shape="rect" coords="461,1,603,33" href="#_function_identifier" title="_function_identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#use_declaration" title="use_declaration">use_declaration</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="use_module">use_module:</a></p><img border="0" src="diagram/use_module.svg" height="69" width="433" usemap="#use_module.map"><map name="use_module.map"><area shape="rect" coords="29,1,151,33" href="#module_identity" title="module_identity"><area shape="rect" coords="245,33,383,65" href="#_module_identifier" title="_module_identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#use_declaration" title="use_declaration">use_declaration</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="use_module_member">use_module_member:</a></p><img border="0" src="diagram/use_module_member.svg" height="37" width="353" usemap="#use_module_member.map"><map name="use_module_member.map"><area shape="rect" coords="29,1,151,33" href="#module_identity" title="module_identity"><area shape="rect" coords="221,1,323,33" href="#use_member" title="use_member"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#use_declaration" title="use_declaration">use_declaration</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="use_module_members">use_module_members:</a></p><img border="0" src="diagram/use_module_members.svg" height="169" width="629" usemap="#use_module_members.map"><map name="use_module_members.map"><area shape="rect" coords="49,45,141,77" href="#num_literal" title="num_literal"><area shape="rect" coords="49,89,187,121" href="#_module_identifier" title="_module_identifier"><area shape="rect" coords="49,133,171,165" href="#module_identity" title="module_identity"><area shape="rect" coords="345,45,447,77" href="#use_member" title="use_member"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#use_declaration" title="use_declaration">use_declaration</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="use_member">use_member:</a></p><img border="0" src="diagram/use_member.svg" height="249" width="607" usemap="#use_member.map"><map name="use_member.map"><area shape="rect" coords="29,45,105,77" href="#identifier" title="identifier"><area shape="rect" coords="283,45,385,77" href="#use_member" title="use_member"><area shape="rect" coords="215,121,291,153" href="#identifier" title="identifier"><area shape="rect" coords="385,153,461,185" href="#identifier" title="identifier"><area shape="rect" coords="199,197,275,229" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#use_member" title="use_member">use_member</a></li>
+            <li><a href="#use_module_member" title="use_module_member">use_module_member</a></li>
+            <li><a href="#use_module_members" title="use_module_members">use_module_members</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="friend_declaration">friend_declaration:</a></p><img border="0" src="diagram/friend_declaration.svg" height="37" width="289" usemap="#friend_declaration.map"><map name="friend_declaration.map"><area shape="rect" coords="109,1,215,33" href="#friend_access" title="friend_access"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_body" title="module_body">module_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="modifier">modifier:</a></p><img border="0" src="diagram/modifier.svg" height="201" width="427"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_function_signature" title="_function_signature">_function_signature</a></li>
+            <li><a href="#_macro_signature" title="_macro_signature">_macro_signature</a></li>
+            <li><a href="#macro_function_definition" title="macro_function_definition">macro_function_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="ability">ability:</a></p><img border="0" src="diagram/ability.svg" height="169" width="153"><p>referenced by:
+         
+         <ul>
+            <li><a href="#ability_decls" title="ability_decls">ability_decls</a></li>
+            <li><a href="#postfix_ability_decls" title="postfix_ability_decls">postfix_ability_decls</a></li>
+            <li><a href="#type_parameter" title="type_parameter">type_parameter</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="module_definition">module_definition:</a></p><img border="0" src="diagram/module_definition.svg" height="37" width="397" usemap="#module_definition.map"><map name="module_definition.map"><area shape="rect" coords="119,1,241,33" href="#module_identity" title="module_identity"><area shape="rect" coords="261,1,367,33" href="#module_body" title="module_body"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#source_file" title="source_file">source_file</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="module_body">module_body:</a></p><img border="0" src="diagram/module_body.svg" height="379" width="411" usemap="#module_body.map"><map name="module_body.map"><area shape="rect" coords="137,265,259,297" href="#use_declaration" title="use_declaration"><area shape="rect" coords="137,221,273,253" href="#friend_declaration" title="friend_declaration"><area shape="rect" coords="137,177,211,209" href="#constant" title="constant"><area shape="rect" coords="137,133,251,165" href="#_function_item" title="_function_item"><area shape="rect" coords="137,89,237,121" href="#_struct_item" title="_struct_item"><area shape="rect" coords="137,45,237,77" href="#_enum_item" title="_enum_item"><area shape="rect" coords="137,1,227,33" href="#spec_block" title="spec_block"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_definition" title="module_definition">module_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="annotation">annotation:</a></p><img border="0" src="diagram/annotation.svg" height="113" width="409" usemap="#annotation.map"><map name="annotation.map"><area shape="rect" coords="105,45,229,77" href="#annotation_item" title="annotation_item"></map><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="annotation_expr">annotation_expr:</a></p><img border="0" src="diagram/annotation_expr.svg" height="145" width="491" usemap="#annotation_expr.map"><map name="annotation_expr.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"><area shape="rect" coords="305,33,421,65" href="#module_access" title="module_access"><area shape="rect" coords="215,109,321,141" href="#_literal_value" title="_literal_value"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#annotation_item" title="annotation_item">annotation_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="annotation_list">annotation_list:</a></p><img border="0" src="diagram/annotation_list.svg" height="201" width="617" usemap="#annotation_list.map"><map name="annotation_list.map"><area shape="rect" coords="29,45,105,77" href="#identifier" title="identifier"><area shape="rect" coords="211,45,317,77" href="#_literal_value" title="_literal_value"><area shape="rect" coords="211,89,335,121" href="#annotation_item" title="annotation_item"><area shape="rect" coords="301,133,417,165" href="#module_access" title="module_access"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#annotation_item" title="annotation_item">annotation_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="annotation_item">annotation_item:</a></p><img border="0" src="diagram/annotation_item.svg" height="81" width="225" usemap="#annotation_item.map"><map name="annotation_item.map"><area shape="rect" coords="49,1,175,33" href="#annotation_expr" title="annotation_expr"><area shape="rect" coords="49,45,165,77" href="#annotation_list" title="annotation_list"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#annotation" title="annotation">annotation</a></li>
+            <li><a href="#annotation_list" title="annotation_list">annotation_list</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="constant">constant:</a></p><img border="0" src="diagram/constant.svg" height="37" width="543" usemap="#constant.map"><map name="constant.map"><area shape="rect" coords="105,1,181,33" href="#identifier" title="identifier"><area shape="rect" coords="245,1,301,33" href="#_type" title="_type"><area shape="rect" coords="371,1,469,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_body" title="module_body">module_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="datatype_fields">datatype_fields:</a></p><img border="0" src="diagram/datatype_fields.svg" height="81" width="223" usemap="#datatype_fields.map"><map name="datatype_fields.map"><area shape="rect" coords="49,1,173,33" href="#positional_fields" title="positional_fields"><area shape="rect" coords="49,45,153,77" href="#named_fields" title="named_fields"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#struct_definition" title="struct_definition">struct_definition</a></li>
+            <li><a href="#variant" title="variant">variant</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="positional_fields">positional_fields:</a></p><img border="0" src="diagram/positional_fields.svg" height="85" width="447" usemap="#positional_fields.map"><map name="positional_fields.map"><area shape="rect" coords="115,17,171,49" href="#_type" title="_type"><area shape="rect" coords="295,49,351,81" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#datatype_fields" title="datatype_fields">datatype_fields</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="named_fields">named_fields:</a></p><img border="0" src="diagram/named_fields.svg" height="85" width="587" usemap="#named_fields.map"><map name="named_fields.map"><area shape="rect" coords="117,17,241,49" href="#field_annotation" title="field_annotation"><area shape="rect" coords="365,49,489,81" href="#field_annotation" title="field_annotation"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#datatype_fields" title="datatype_fields">datatype_fields</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_enum_item">_enum_item:</a></p><img border="0" src="diagram/_enum_item.svg" height="37" width="181" usemap="#_enum_item.map"><map name="_enum_item.map"><area shape="rect" coords="29,1,151,33" href="#enum_definition" title="enum_definition"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_body" title="module_body">module_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="enum_definition">enum_definition:</a></p><img border="0" src="diagram/enum_definition.svg" height="69" width="653" usemap="#enum_definition.map"><map name="enum_definition.map"><area shape="rect" coords="149,1,281,33" href="#_enum_signature" title="_enum_signature"><area shape="rect" coords="301,1,415,33" href="#enum_variants" title="enum_variants"><area shape="rect" coords="455,33,603,65" href="#postfix_ability_decls" title="postfix_ability_decls"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_enum_item" title="_enum_item">_enum_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_enum_signature">_enum_signature:</a></p><img border="0" src="diagram/_enum_signature.svg" height="69" width="613" usemap="#_enum_signature.map"><map name="_enum_signature.map"><area shape="rect" coords="107,1,235,33" href="#_enum_identifier" title="_enum_identifier"><area shape="rect" coords="275,33,405,65" href="#type_parameters" title="type_parameters"><area shape="rect" coords="465,33,563,65" href="#ability_decls" title="ability_decls"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#enum_definition" title="enum_definition">enum_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="enum_variants">enum_variants:</a></p><img border="0" src="diagram/enum_variants.svg" height="85" width="467" usemap="#enum_variants.map"><map name="enum_variants.map"><area shape="rect" coords="117,17,181,49" href="#variant" title="variant"><area shape="rect" coords="305,49,369,81" href="#variant" title="variant"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#enum_definition" title="enum_definition">enum_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="variant">variant:</a></p><img border="0" src="diagram/variant.svg" height="69" width="373" usemap="#variant.map"><map name="variant.map"><area shape="rect" coords="29,1,165,33" href="#_variant_identifier" title="_variant_identifier"><area shape="rect" coords="205,33,323,65" href="#datatype_fields" title="datatype_fields"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#enum_variants" title="enum_variants">enum_variants</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_struct_item">_struct_item:</a></p><img border="0" src="diagram/_struct_item.svg" height="81" width="269" usemap="#_struct_item.map"><map name="_struct_item.map"><area shape="rect" coords="49,1,219,33" href="#native_struct_definition" title="native_struct_definition"><area shape="rect" coords="49,45,171,77" href="#struct_definition" title="struct_definition"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_body" title="module_body">module_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="native_struct_definition">native_struct_definition:</a></p><img border="0" src="diagram/native_struct_definition.svg" height="69" width="437" usemap="#native_struct_definition.map"><map name="native_struct_definition.map"><area shape="rect" coords="231,1,363,33" href="#_struct_signature" title="_struct_signature"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_struct_item" title="_struct_item">_struct_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="struct_definition">struct_definition:</a></p><img border="0" src="diagram/struct_definition.svg" height="69" width="657" usemap="#struct_definition.map"><map name="struct_definition.map"><area shape="rect" coords="149,1,281,33" href="#_struct_signature" title="_struct_signature"><area shape="rect" coords="301,1,419,33" href="#datatype_fields" title="datatype_fields"><area shape="rect" coords="459,33,607,65" href="#postfix_ability_decls" title="postfix_ability_decls"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_struct_item" title="_struct_item">_struct_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="field_annotation">field_annotation:</a></p><img border="0" src="diagram/field_annotation.svg" height="37" width="297" usemap="#field_annotation.map"><map name="field_annotation.map"><area shape="rect" coords="29,1,147,33" href="#_field_identifier" title="_field_identifier"><area shape="rect" coords="211,1,267,33" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#named_fields" title="named_fields">named_fields</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="ability_decls">ability_decls:</a></p><img border="0" src="diagram/ability_decls.svg" height="85" width="423" usemap="#ability_decls.map"><map name="ability_decls.map"><area shape="rect" coords="133,17,191,49" href="#ability" title="ability"><area shape="rect" coords="315,49,373,81" href="#ability" title="ability"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_enum_signature" title="_enum_signature">_enum_signature</a></li>
+            <li><a href="#_struct_signature" title="_struct_signature">_struct_signature</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="postfix_ability_decls">postfix_ability_decls:</a></p><img border="0" src="diagram/postfix_ability_decls.svg" height="85" width="467" usemap="#postfix_ability_decls.map"><map name="postfix_ability_decls.map"><area shape="rect" coords="133,17,191,49" href="#ability" title="ability"><area shape="rect" coords="315,49,373,81" href="#ability" title="ability"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#enum_definition" title="enum_definition">enum_definition</a></li>
+            <li><a href="#struct_definition" title="struct_definition">struct_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_struct_signature">_struct_signature:</a></p><img border="0" src="diagram/_struct_signature.svg" height="69" width="613" usemap="#_struct_signature.map"><map name="_struct_signature.map"><area shape="rect" coords="107,1,235,33" href="#_struct_identifier" title="_struct_identifier"><area shape="rect" coords="275,33,405,65" href="#type_parameters" title="type_parameters"><area shape="rect" coords="465,33,563,65" href="#ability_decls" title="ability_decls"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#native_struct_definition" title="native_struct_definition">native_struct_definition</a></li>
+            <li><a href="#struct_definition" title="struct_definition">struct_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_function_item">_function_item:</a></p><img border="0" src="diagram/_function_item.svg" height="125" width="283" usemap="#_function_item.map"><map name="_function_item.map"><area shape="rect" coords="49,1,233,33" href="#native_function_definition" title="native_function_definition"><area shape="rect" coords="49,45,233,77" href="#macro_function_definition" title="macro_function_definition"><area shape="rect" coords="49,89,187,121" href="#function_definition" title="function_definition"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_body" title="module_body">module_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="native_function_definition">native_function_definition:</a></p><img border="0" src="diagram/native_function_definition.svg" height="37" width="249" usemap="#native_function_definition.map"><map name="native_function_definition.map"><area shape="rect" coords="29,1,175,33" href="#_function_signature" title="_function_signature"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_function_item" title="_function_item">_function_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="macro_function_definition">macro_function_definition:</a></p><img border="0" src="diagram/macro_function_definition.svg" height="69" width="479" usemap="#macro_function_definition.map"><map name="macro_function_definition.map"><area shape="rect" coords="49,33,121,65" href="#modifier" title="modifier"><area shape="rect" coords="243,1,377,33" href="#_macro_signature" title="_macro_signature"><area shape="rect" coords="397,1,449,33" href="#block" title="block"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_function_item" title="_function_item">_function_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_macro_signature">_macro_signature:</a></p><img border="0" src="diagram/_macro_signature.svg" height="69" width="891" usemap="#_macro_signature.map"><map name="_macro_signature.map"><area shape="rect" coords="49,33,121,65" href="#modifier" title="modifier"><area shape="rect" coords="223,1,365,33" href="#_function_identifier" title="_function_identifier"><area shape="rect" coords="405,33,535,65" href="#type_parameters" title="type_parameters"><area shape="rect" coords="575,1,727,33" href="#function_parameters" title="function_parameters"><area shape="rect" coords="767,33,841,65" href="#ret_type" title="ret_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#macro_function_definition" title="macro_function_definition">macro_function_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="function_definition">function_definition:</a></p><img border="0" src="diagram/function_definition.svg" height="37" width="277" usemap="#function_definition.map"><map name="function_definition.map"><area shape="rect" coords="29,1,175,33" href="#_function_signature" title="_function_signature"><area shape="rect" coords="195,1,247,33" href="#block" title="block"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_function_item" title="_function_item">_function_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_function_signature">_function_signature:</a></p><img border="0" src="diagram/_function_signature.svg" height="167" width="843" usemap="#_function_signature.map"><map name="_function_signature.map"><area shape="rect" coords="49,33,121,65" href="#modifier" title="modifier"><area shape="rect" coords="181,33,253,65" href="#modifier" title="modifier"><area shape="rect" coords="313,33,385,65" href="#modifier" title="modifier"><area shape="rect" coords="487,1,629,33" href="#_function_identifier" title="_function_identifier"><area shape="rect" coords="669,33,799,65" href="#type_parameters" title="type_parameters"><area shape="rect" coords="527,99,679,131" href="#function_parameters" title="function_parameters"><area shape="rect" coords="719,131,793,163" href="#ret_type" title="ret_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#function_definition" title="function_definition">function_definition</a></li>
+            <li><a href="#native_function_definition" title="native_function_definition">native_function_definition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="function_parameters">function_parameters:</a></p><img border="0" src="diagram/function_parameters.svg" height="129" width="731" usemap="#function_parameters.map"><map name="function_parameters.map"><area shape="rect" coords="135,17,313,49" href="#mut_function_parameter" title="mut_function_parameter"><area shape="rect" coords="135,61,281,93" href="#function_parameter" title="function_parameter"><area shape="rect" coords="457,49,635,81" href="#mut_function_parameter" title="mut_function_parameter"><area shape="rect" coords="457,93,603,125" href="#function_parameter" title="function_parameter"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_function_signature" title="_function_signature">_function_signature</a></li>
+            <li><a href="#_macro_signature" title="_macro_signature">_macro_signature</a></li>
+            <li><a href="#_spec_function_signature" title="_spec_function_signature">_spec_function_signature</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_block">spec_block:</a></p><img border="0" src="diagram/spec_block.svg" height="113" width="461" usemap="#spec_block.map"><map name="spec_block.map"><area shape="rect" coords="139,33,283,65" href="#_spec_block_target" title="_spec_block_target"><area shape="rect" coords="323,1,411,33" href="#spec_body" title="spec_body"><area shape="rect" coords="119,77,235,109" href="#_spec_function" title="_spec_function"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+            <li><a href="#module_body" title="module_body">module_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_block_target">_spec_block_target:</a></p><img border="0" src="diagram/_spec_block_target.svg" height="125" width="293" usemap="#_spec_block_target.map"><map name="_spec_block_target.map"><area shape="rect" coords="49,1,125,33" href="#identifier" title="identifier"><area shape="rect" coords="49,89,243,121" href="#spec_block_target_schema" title="spec_block_target_schema"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_block" title="spec_block">spec_block</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_block_target_fun">spec_block_target_fun:</a></p><img border="0" src="diagram/spec_block_target_fun.svg" height="37" width="263" usemap="#spec_block_target_fun.map"><map name="spec_block_target_fun.map"><area shape="rect" coords="91,1,233,33" href="#_function_identifier" title="_function_identifier"></map><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_block_target_struct">spec_block_target_struct:</a></p><img border="0" src="diagram/spec_block_target_struct.svg" height="37" width="265" usemap="#spec_block_target_struct.map"><map name="spec_block_target_struct.map"><area shape="rect" coords="107,1,235,33" href="#_struct_identifier" title="_struct_identifier"></map><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_block_target_schema">spec_block_target_schema:</a></p><img border="0" src="diagram/spec_block_target_schema.svg" height="69" width="467" usemap="#spec_block_target_schema.map"><map name="spec_block_target_schema.map"><area shape="rect" coords="119,1,247,33" href="#_struct_identifier" title="_struct_identifier"><area shape="rect" coords="287,33,417,65" href="#type_parameters" title="type_parameters"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_target" title="_spec_block_target">_spec_block_target</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_body">spec_body:</a></p><img border="0" src="diagram/spec_body.svg" height="71" width="543" usemap="#spec_body.map"><map name="spec_body.map"><area shape="rect" coords="97,1,219,33" href="#use_declaration" title="use_declaration"><area shape="rect" coords="279,1,445,33" href="#_spec_block_memeber" title="_spec_block_memeber"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_block" title="spec_block">spec_block</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_block_memeber">_spec_block_memeber:</a></p><img border="0" src="diagram/_spec_block_memeber.svg" height="345" width="215" usemap="#_spec_block_memeber.map"><map name="_spec_block_memeber.map"><area shape="rect" coords="49,1,161,33" href="#spec_invariant" title="spec_invariant"><area shape="rect" coords="49,45,165,77" href="#_spec_function" title="_spec_function"><area shape="rect" coords="49,89,163,121" href="#spec_condition" title="spec_condition"><area shape="rect" coords="49,133,151,165" href="#spec_include" title="spec_include"><area shape="rect" coords="49,177,141,209" href="#spec_apply" title="spec_apply"><area shape="rect" coords="49,221,155,253" href="#spec_pragma" title="spec_pragma"><area shape="rect" coords="49,265,157,297" href="#spec_variable" title="spec_variable"><area shape="rect" coords="49,309,123,341" href="#spec_let" title="spec_let"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_body" title="spec_body">spec_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_let">spec_let:</a></p><img border="0" src="diagram/spec_let.svg" height="69" width="513" usemap="#spec_let.map"><map name="spec_let.map"><area shape="rect" coords="195,1,271,33" href="#identifier" title="identifier"><area shape="rect" coords="341,1,439,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_condition">spec_condition:</a></p><img border="0" src="diagram/spec_condition.svg" height="125" width="315" usemap="#spec_condition.map"><map name="spec_condition.map"><area shape="rect" coords="49,1,171,33" href="#_spec_condition" title="_spec_condition"><area shape="rect" coords="49,45,163,77" href="#_spec_abort_if" title="_spec_abort_if"><area shape="rect" coords="49,89,265,121" href="#_spec_abort_with_or_modifies" title="_spec_abort_with_or_modifies"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_condition_kind">_spec_condition_kind:</a></p><img border="0" src="diagram/_spec_condition_kind.svg" height="213" width="197"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_condition" title="_spec_condition">_spec_condition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_condition">_spec_condition:</a></p><img border="0" src="diagram/_spec_condition.svg" height="113" width="677" usemap="#_spec_condition.map"><map name="_spec_condition.map"><area shape="rect" coords="49,1,205,33" href="#_spec_condition_kind" title="_spec_condition_kind"><area shape="rect" coords="315,33,465,65" href="#condition_properties" title="condition_properties"><area shape="rect" coords="505,1,603,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_condition" title="spec_condition">spec_condition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_abort_if">_spec_abort_if:</a></p><img border="0" src="diagram/_spec_abort_if.svg" height="69" width="739" usemap="#_spec_abort_if.map"><map name="_spec_abort_if.map"><area shape="rect" coords="149,33,299,65" href="#condition_properties" title="condition_properties"><area shape="rect" coords="339,1,437,33" href="#_expression" title="_expression"><area shape="rect" coords="547,33,645,65" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_condition" title="spec_condition">spec_condition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_abort_with_or_modifies">_spec_abort_with_or_modifies:</a></p><img border="0" src="diagram/_spec_abort_with_or_modifies.svg" height="125" width="697" usemap="#_spec_abort_with_or_modifies.map"><map name="_spec_abort_with_or_modifies.map"><area shape="rect" coords="211,77,361,109" href="#condition_properties" title="condition_properties"><area shape="rect" coords="421,45,519,77" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_condition" title="spec_condition">spec_condition</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_invariant">spec_invariant:</a></p><img border="0" src="diagram/spec_invariant.svg" height="201" width="641" usemap="#spec_invariant.map"><map name="spec_invariant.map"><area shape="rect" coords="279,33,429,65" href="#condition_properties" title="condition_properties"><area shape="rect" coords="469,1,567,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="condition_properties">condition_properties:</a></p><img border="0" src="diagram/condition_properties.svg" height="85" width="559" usemap="#condition_properties.map"><map name="condition_properties.map"><area shape="rect" coords="115,17,227,49" href="#spec_property" title="spec_property"><area shape="rect" coords="351,49,463,81" href="#spec_property" title="spec_property"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_abort_if" title="_spec_abort_if">_spec_abort_if</a></li>
+            <li><a href="#_spec_abort_with_or_modifies" title="_spec_abort_with_or_modifies">_spec_abort_with_or_modifies</a></li>
+            <li><a href="#_spec_condition" title="_spec_condition">_spec_condition</a></li>
+            <li><a href="#spec_invariant" title="spec_invariant">spec_invariant</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_include">spec_include:</a></p><img border="0" src="diagram/spec_include.svg" height="37" width="289" usemap="#spec_include.map"><map name="spec_include.map"><area shape="rect" coords="117,1,215,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_apply">spec_apply:</a></p><img border="0" src="diagram/spec_apply.svg" height="195" width="985" usemap="#spec_apply.map"><map name="spec_apply.map"><area shape="rect" coords="105,45,203,77" href="#_expression" title="_expression"><area shape="rect" coords="297,45,443,77" href="#spec_apply_pattern" title="spec_apply_pattern"><area shape="rect" coords="691,45,837,77" href="#spec_apply_pattern" title="spec_apply_pattern"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_apply_pattern">spec_apply_pattern:</a></p><img border="0" src="diagram/spec_apply_pattern.svg" height="113" width="571" usemap="#spec_apply_pattern.map"><map name="spec_apply_pattern.map"><area shape="rect" coords="161,1,351,33" href="#spec_apply_name_pattern" title="spec_apply_name_pattern"><area shape="rect" coords="391,33,521,65" href="#type_parameters" title="type_parameters"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_apply" title="spec_apply">spec_apply</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_apply_name_pattern">spec_apply_name_pattern:</a></p><img border="0" src="diagram/spec_apply_name_pattern.svg" height="229" width="201"><p>referenced by:
+         
+         <ul>
+            <li><a href="#spec_apply_pattern" title="spec_apply_pattern">spec_apply_pattern</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_pragma">spec_pragma:</a></p><img border="0" src="diagram/spec_pragma.svg" height="85" width="603" usemap="#spec_pragma.map"><map name="spec_pragma.map"><area shape="rect" coords="161,17,273,49" href="#spec_property" title="spec_property"><area shape="rect" coords="397,49,509,81" href="#spec_property" title="spec_property"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_property">spec_property:</a></p><img border="0" src="diagram/spec_property.svg" height="69" width="351" usemap="#spec_property.map"><map name="spec_property.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"><area shape="rect" coords="195,33,301,65" href="#_literal_value" title="_literal_value"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#condition_properties" title="condition_properties">condition_properties</a></li>
+            <li><a href="#spec_pragma" title="spec_pragma">spec_pragma</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="spec_variable">spec_variable:</a></p><img border="0" src="diagram/spec_variable.svg" height="113" width="609" usemap="#spec_variable.map"><map name="spec_variable.map"><area shape="rect" coords="149,1,225,33" href="#identifier" title="identifier"><area shape="rect" coords="265,33,395,65" href="#type_parameters" title="type_parameters"><area shape="rect" coords="479,1,535,33" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_function">_spec_function:</a></p><img border="0" src="diagram/_spec_function.svg" height="125" width="301" usemap="#_spec_function.map"><map name="_spec_function.map"><area shape="rect" coords="49,1,203,33" href="#native_spec_function" title="native_spec_function"><area shape="rect" coords="49,45,199,77" href="#usual_spec_function" title="usual_spec_function"><area shape="rect" coords="49,89,251,121" href="#uninterpreted_spec_function" title="uninterpreted_spec_function"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_block_memeber" title="_spec_block_memeber">_spec_block_memeber</a></li>
+            <li><a href="#spec_block" title="spec_block">spec_block</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="uninterpreted_spec_function">uninterpreted_spec_function:</a></p><img border="0" src="diagram/uninterpreted_spec_function.svg" height="37" width="349" usemap="#uninterpreted_spec_function.map"><map name="uninterpreted_spec_function.map"><area shape="rect" coords="91,1,275,33" href="#_spec_function_signature" title="_spec_function_signature"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_function" title="_spec_function">_spec_function</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="native_spec_function">native_spec_function:</a></p><img border="0" src="diagram/native_spec_function.svg" height="37" width="431" usemap="#native_spec_function.map"><map name="native_spec_function.map"><area shape="rect" coords="173,1,357,33" href="#_spec_function_signature" title="_spec_function_signature"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_function" title="_spec_function">_spec_function</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="usual_spec_function">usual_spec_function:</a></p><img border="0" src="diagram/usual_spec_function.svg" height="37" width="377" usemap="#usual_spec_function.map"><map name="usual_spec_function.map"><area shape="rect" coords="91,1,275,33" href="#_spec_function_signature" title="_spec_function_signature"><area shape="rect" coords="295,1,347,33" href="#block" title="block"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_function" title="_spec_function">_spec_function</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_spec_function_signature">_spec_function_signature:</a></p><img border="0" src="diagram/_spec_function_signature.svg" height="69" width="657" usemap="#_spec_function_signature.map"><map name="_spec_function_signature.map"><area shape="rect" coords="29,1,171,33" href="#_function_identifier" title="_function_identifier"><area shape="rect" coords="211,33,341,65" href="#type_parameters" title="type_parameters"><area shape="rect" coords="381,1,533,33" href="#function_parameters" title="function_parameters"><area shape="rect" coords="553,1,627,33" href="#ret_type" title="ret_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#native_spec_function" title="native_spec_function">native_spec_function</a></li>
+            <li><a href="#uninterpreted_spec_function" title="uninterpreted_spec_function">uninterpreted_spec_function</a></li>
+            <li><a href="#usual_spec_function" title="usual_spec_function">usual_spec_function</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_type">_type:</a></p><img border="0" src="diagram/_type.svg" height="213" width="209" usemap="#_type.map"><map name="_type.map"><area shape="rect" coords="49,1,139,33" href="#apply_type" title="apply_type"><area shape="rect" coords="49,45,121,77" href="#ref_type" title="ref_type"><area shape="rect" coords="49,89,137,121" href="#tuple_type" title="tuple_type"><area shape="rect" coords="49,133,155,165" href="#function_type" title="function_type"><area shape="rect" coords="49,177,159,209" href="#primitive_type" title="primitive_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#annotation_expression" title="annotation_expression">annotation_expression</a></li>
+            <li><a href="#cast_expression" title="cast_expression">cast_expression</a></li>
+            <li><a href="#constant" title="constant">constant</a></li>
+            <li><a href="#field_annotation" title="field_annotation">field_annotation</a></li>
+            <li><a href="#function_parameter" title="function_parameter">function_parameter</a></li>
+            <li><a href="#function_type" title="function_type">function_type</a></li>
+            <li><a href="#function_type_parameters" title="function_type_parameters">function_type_parameters</a></li>
+            <li><a href="#lambda_binding" title="lambda_binding">lambda_binding</a></li>
+            <li><a href="#lambda_expression" title="lambda_expression">lambda_expression</a></li>
+            <li><a href="#let_statement" title="let_statement">let_statement</a></li>
+            <li><a href="#positional_fields" title="positional_fields">positional_fields</a></li>
+            <li><a href="#quantifier_binding" title="quantifier_binding">quantifier_binding</a></li>
+            <li><a href="#ref_type" title="ref_type">ref_type</a></li>
+            <li><a href="#ret_type" title="ret_type">ret_type</a></li>
+            <li><a href="#spec_variable" title="spec_variable">spec_variable</a></li>
+            <li><a href="#tuple_type" title="tuple_type">tuple_type</a></li>
+            <li><a href="#type_arguments" title="type_arguments">type_arguments</a></li>
+            <li><a href="#vector_expression" title="vector_expression">vector_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="apply_type">apply_type:</a></p><img border="0" src="diagram/apply_type.svg" height="69" width="359" usemap="#apply_type.map"><map name="apply_type.map"><area shape="rect" coords="29,1,145,33" href="#module_access" title="module_access"><area shape="rect" coords="185,33,309,65" href="#type_arguments" title="type_arguments"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_type" title="_type">_type</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="ref_type">ref_type:</a></p><img border="0" src="diagram/ref_type.svg" height="37" width="223" usemap="#ref_type.map"><map name="ref_type.map"><area shape="rect" coords="29,1,117,33" href="#_reference" title="_reference"><area shape="rect" coords="137,1,193,33" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_type" title="_type">_type</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="tuple_type">tuple_type:</a></p><img border="0" src="diagram/tuple_type.svg" height="85" width="447" usemap="#tuple_type.map"><map name="tuple_type.map"><area shape="rect" coords="115,17,171,49" href="#_type" title="_type"><area shape="rect" coords="295,49,351,81" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_type" title="_type">_type</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="primitive_type">primitive_type:</a></p><img border="0" src="diagram/primitive_type.svg" height="433" width="185"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_type" title="_type">_type</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="ret_type">ret_type:</a></p><img border="0" src="diagram/ret_type.svg" height="37" width="159" usemap="#ret_type.map"><map name="ret_type.map"><area shape="rect" coords="73,1,129,33" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_function_signature" title="_function_signature">_function_signature</a></li>
+            <li><a href="#_macro_signature" title="_macro_signature">_macro_signature</a></li>
+            <li><a href="#_spec_function_signature" title="_spec_function_signature">_spec_function_signature</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="module_access">module_access:</a></p><img border="0" src="diagram/module_access.svg" height="473" width="777" usemap="#module_access.map"><map name="module_access.map"><area shape="rect" coords="69,89,207,121" href="#_module_identifier" title="_module_identifier"><area shape="rect" coords="247,121,371,153" href="#type_arguments" title="type_arguments"><area shape="rect" coords="481,1,557,33" href="#identifier" title="identifier"><area shape="rect" coords="49,165,197,197" href="#_reserved_identifier" title="_reserved_identifier"><area shape="rect" coords="49,209,125,241" href="#identifier" title="identifier"><area shape="rect" coords="165,241,289,273" href="#type_arguments" title="type_arguments"><area shape="rect" coords="49,285,171,317" href="#module_identity" title="module_identity"><area shape="rect" coords="231,317,355,349" href="#type_arguments" title="type_arguments"><area shape="rect" coords="465,317,541,349" href="#identifier" title="identifier"><area shape="rect" coords="261,361,337,393" href="#identifier" title="identifier"><area shape="rect" coords="377,361,501,393" href="#type_arguments" title="type_arguments"><area shape="rect" coords="397,437,521,469" href="#type_arguments" title="type_arguments"><area shape="rect" coords="611,405,687,437" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#annotation_expr" title="annotation_expr">annotation_expr</a></li>
+            <li><a href="#annotation_list" title="annotation_list">annotation_list</a></li>
+            <li><a href="#apply_type" title="apply_type">apply_type</a></li>
+            <li><a href="#macro_module_access" title="macro_module_access">macro_module_access</a></li>
+            <li><a href="#name_expression" title="name_expression">name_expression</a></li>
+            <li><a href="#use_fun" title="use_fun">use_fun</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="friend_access">friend_access:</a></p><img border="0" src="diagram/friend_access.svg" height="81" width="221" usemap="#friend_access.map"><map name="friend_access.map"><area shape="rect" coords="49,1,125,33" href="#identifier" title="identifier"><area shape="rect" coords="49,45,171,77" href="#module_identity" title="module_identity"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#friend_declaration" title="friend_declaration">friend_declaration</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="macro_module_access">macro_module_access:</a></p><img border="0" src="diagram/macro_module_access.svg" height="37" width="219" usemap="#macro_module_access.map"><map name="macro_module_access.map"><area shape="rect" coords="29,1,145,33" href="#module_access" title="module_access"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#macro_call_expression" title="macro_call_expression">macro_call_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="module_identity">module_identity:</a></p><img border="0" src="diagram/module_identity.svg" height="81" width="445" usemap="#module_identity.map"><map name="module_identity.map"><area shape="rect" coords="49,1,141,33" href="#num_literal" title="num_literal"><area shape="rect" coords="49,45,187,77" href="#_module_identifier" title="_module_identifier"><area shape="rect" coords="277,1,415,33" href="#_module_identifier" title="_module_identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#friend_access" title="friend_access">friend_access</a></li>
+            <li><a href="#module_access" title="module_access">module_access</a></li>
+            <li><a href="#module_definition" title="module_definition">module_definition</a></li>
+            <li><a href="#use_module" title="use_module">use_module</a></li>
+            <li><a href="#use_module_member" title="use_module_member">use_module_member</a></li>
+            <li><a href="#use_module_members" title="use_module_members">use_module_members</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="type_arguments">type_arguments:</a></p><img border="0" src="diagram/type_arguments.svg" height="113" width="339" usemap="#type_arguments.map"><map name="type_arguments.map"><area shape="rect" coords="99,45,155,77" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#apply_type" title="apply_type">apply_type</a></li>
+            <li><a href="#macro_call_expression" title="macro_call_expression">macro_call_expression</a></li>
+            <li><a href="#module_access" title="module_access">module_access</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="function_type">function_type:</a></p><img border="0" src="diagram/function_type.svg" height="69" width="419" usemap="#function_type.map"><map name="function_type.map"><area shape="rect" coords="29,1,217,33" href="#function_type_parameters" title="function_type_parameters"><area shape="rect" coords="313,33,369,65" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_type" title="_type">_type</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="function_type_parameters">function_type_parameters:</a></p><img border="0" src="diagram/function_type_parameters.svg" height="85" width="447" usemap="#function_type_parameters.map"><map name="function_type_parameters.map"><area shape="rect" coords="115,17,171,49" href="#_type" title="_type"><area shape="rect" coords="295,49,351,81" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#function_type" title="function_type">function_type</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="mut_function_parameter">mut_function_parameter:</a></p><img border="0" src="diagram/mut_function_parameter.svg" height="37" width="271" usemap="#mut_function_parameter.map"><map name="mut_function_parameter.map"><area shape="rect" coords="95,1,241,33" href="#function_parameter" title="function_parameter"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#function_parameters" title="function_parameters">function_parameters</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="function_parameter">function_parameter:</a></p><img border="0" src="diagram/function_parameter.svg" height="69" width="409" usemap="#function_parameter.map"><map name="function_parameter.map"><area shape="rect" coords="117,1,259,33" href="#_variable_identifier" title="_variable_identifier"><area shape="rect" coords="323,1,379,33" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#function_parameters" title="function_parameters">function_parameters</a></li>
+            <li><a href="#mut_function_parameter" title="mut_function_parameter">mut_function_parameter</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="type_parameters">type_parameters:</a></p><img border="0" src="diagram/type_parameters.svg" height="113" width="405" usemap="#type_parameters.map"><map name="type_parameters.map"><area shape="rect" coords="99,45,221,77" href="#type_parameter" title="type_parameter"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_enum_signature" title="_enum_signature">_enum_signature</a></li>
+            <li><a href="#_function_signature" title="_function_signature">_function_signature</a></li>
+            <li><a href="#_macro_signature" title="_macro_signature">_macro_signature</a></li>
+            <li><a href="#_spec_function_signature" title="_spec_function_signature">_spec_function_signature</a></li>
+            <li><a href="#_struct_signature" title="_struct_signature">_struct_signature</a></li>
+            <li><a href="#spec_apply_pattern" title="spec_apply_pattern">spec_apply_pattern</a></li>
+            <li><a href="#spec_block_target_schema" title="spec_block_target_schema">spec_block_target_schema</a></li>
+            <li><a href="#spec_variable" title="spec_variable">spec_variable</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="type_parameter">type_parameter:</a></p><img border="0" src="diagram/type_parameter.svg" height="129" width="773" usemap="#type_parameter.map"><map name="type_parameter.map"><area shape="rect" coords="257,45,451,77" href="#_type_parameter_identifier" title="_type_parameter_identifier"><area shape="rect" coords="555,45,613,77" href="#ability" title="ability"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#type_parameters" title="type_parameters">type_parameters</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="block">block:</a></p><img border="0" src="diagram/block.svg" height="103" width="623" usemap="#block.map"><map name="block.map"><area shape="rect" coords="97,1,219,33" href="#use_declaration" title="use_declaration"><area shape="rect" coords="279,1,367,33" href="#block_item" title="block_item"><area shape="rect" coords="427,67,525,99" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+            <li><a href="#function_definition" title="function_definition">function_definition</a></li>
+            <li><a href="#macro_function_definition" title="macro_function_definition">macro_function_definition</a></li>
+            <li><a href="#usual_spec_function" title="usual_spec_function">usual_spec_function</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="block_item">block_item:</a></p><img border="0" src="diagram/block_item.svg" height="81" width="253" usemap="#block_item.map"><map name="block_item.map"><area shape="rect" coords="49,1,147,33" href="#_expression" title="_expression"><area shape="rect" coords="49,45,159,77" href="#let_statement" title="let_statement"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#block" title="block">block</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="let_statement">let_statement:</a></p><img border="0" src="diagram/let_statement.svg" height="69" width="559" usemap="#let_statement.map"><map name="let_statement.map"><area shape="rect" coords="87,1,161,33" href="#bind_list" title="bind_list"><area shape="rect" coords="245,33,301,65" href="#_type" title="_type"><area shape="rect" coords="411,33,509,65" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#block_item" title="block_item">block_item</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_expression">_expression:</a></p><img border="0" src="diagram/_expression.svg" height="697" width="263" usemap="#_expression.map"><map name="_expression.map"><area shape="rect" coords="49,1,167,33" href="#call_expression" title="call_expression"><area shape="rect" coords="49,45,213,77" href="#macro_call_expression" title="macro_call_expression"><area shape="rect" coords="49,89,193,121" href="#lambda_expression" title="lambda_expression"><area shape="rect" coords="49,133,153,165" href="#if_expression" title="if_expression"><area shape="rect" coords="49,177,179,209" href="#while_expression" title="while_expression"><area shape="rect" coords="49,221,185,253" href="#return_expression" title="return_expression"><area shape="rect" coords="49,265,181,297" href="#abort_expression" title="abort_expression"><area shape="rect" coords="49,309,187,341" href="#assign_expression" title="assign_expression"><area shape="rect" coords="49,353,191,385" href="#_unary_expression" title="_unary_expression"><area shape="rect" coords="49,397,185,429" href="#binary_expression" title="binary_expression"><area shape="rect" coords="49,441,173,473" href="#cast_expression" title="cast_expression"><area shape="rect" coords="49,485,207,517" href="#quantifier_expression" title="quantifier_expression"><area shape="rect" coords="49,529,185,561" href="#match_expression" title="match_expression"><area shape="rect" coords="49,573,185,605" href="#vector_expression" title="vector_expression"><area shape="rect" coords="49,617,173,649" href="#loop_expression" title="loop_expression"><area shape="rect" coords="49,661,205,693" href="#identified_expression" title="identified_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_spec_abort_if" title="_spec_abort_if">_spec_abort_if</a></li>
+            <li><a href="#_spec_abort_with_or_modifies" title="_spec_abort_with_or_modifies">_spec_abort_with_or_modifies</a></li>
+            <li><a href="#_spec_condition" title="_spec_condition">_spec_condition</a></li>
+            <li><a href="#abort_expression" title="abort_expression">abort_expression</a></li>
+            <li><a href="#annotation_expression" title="annotation_expression">annotation_expression</a></li>
+            <li><a href="#arg_list" title="arg_list">arg_list</a></li>
+            <li><a href="#assign_expression" title="assign_expression">assign_expression</a></li>
+            <li><a href="#binary_expression" title="binary_expression">binary_expression</a></li>
+            <li><a href="#block" title="block">block</a></li>
+            <li><a href="#block_item" title="block_item">block_item</a></li>
+            <li><a href="#borrow_expression" title="borrow_expression">borrow_expression</a></li>
+            <li><a href="#break_expression" title="break_expression">break_expression</a></li>
+            <li><a href="#cast_expression" title="cast_expression">cast_expression</a></li>
+            <li><a href="#constant" title="constant">constant</a></li>
+            <li><a href="#dereference_expression" title="dereference_expression">dereference_expression</a></li>
+            <li><a href="#exp_field" title="exp_field">exp_field</a></li>
+            <li><a href="#expression_list" title="expression_list">expression_list</a></li>
+            <li><a href="#identified_expression" title="identified_expression">identified_expression</a></li>
+            <li><a href="#if_expression" title="if_expression">if_expression</a></li>
+            <li><a href="#index_expression" title="index_expression">index_expression</a></li>
+            <li><a href="#lambda_expression" title="lambda_expression">lambda_expression</a></li>
+            <li><a href="#let_statement" title="let_statement">let_statement</a></li>
+            <li><a href="#loop_expression" title="loop_expression">loop_expression</a></li>
+            <li><a href="#match_arm" title="match_arm">match_arm</a></li>
+            <li><a href="#match_condition" title="match_condition">match_condition</a></li>
+            <li><a href="#match_expression" title="match_expression">match_expression</a></li>
+            <li><a href="#move_or_copy_expression" title="move_or_copy_expression">move_or_copy_expression</a></li>
+            <li><a href="#quantifier_binding" title="quantifier_binding">quantifier_binding</a></li>
+            <li><a href="#quantifier_expression" title="quantifier_expression">quantifier_expression</a></li>
+            <li><a href="#return_expression" title="return_expression">return_expression</a></li>
+            <li><a href="#spec_apply" title="spec_apply">spec_apply</a></li>
+            <li><a href="#spec_include" title="spec_include">spec_include</a></li>
+            <li><a href="#spec_invariant" title="spec_invariant">spec_invariant</a></li>
+            <li><a href="#spec_let" title="spec_let">spec_let</a></li>
+            <li><a href="#unary_expression" title="unary_expression">unary_expression</a></li>
+            <li><a href="#vector_expression" title="vector_expression">vector_expression</a></li>
+            <li><a href="#while_expression" title="while_expression">while_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="identified_expression">identified_expression:</a></p><img border="0" src="diagram/identified_expression.svg" height="37" width="293" usemap="#identified_expression.map"><map name="identified_expression.map"><area shape="rect" coords="29,1,145,33" href="#block_identifier" title="block_identifier"><area shape="rect" coords="165,1,263,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="vector_expression">vector_expression:</a></p><img border="0" src="diagram/vector_expression.svg" height="173" width="913" usemap="#vector_expression.map"><map name="vector_expression.map"><area shape="rect" coords="161,105,217,137" href="#_type" title="_type"><area shape="rect" coords="497,17,595,49" href="#_expression" title="_expression"><area shape="rect" coords="719,49,817,81" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="quantifier_expression">quantifier_expression:</a></p><img border="0" src="diagram/quantifier_expression.svg" height="81" width="723" usemap="#quantifier_expression.map"><map name="quantifier_expression.map"><area shape="rect" coords="149,1,291,33" href="#quantifier_bindings" title="quantifier_bindings"><area shape="rect" coords="413,33,511,65" href="#_expression" title="_expression"><area shape="rect" coords="595,1,693,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="quantifier_bindings">quantifier_bindings:</a></p><img border="0" src="diagram/quantifier_bindings.svg" height="113" width="319" usemap="#quantifier_bindings.map"><map name="quantifier_bindings.map"><area shape="rect" coords="49,45,185,77" href="#quantifier_binding" title="quantifier_binding"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#quantifier_expression" title="quantifier_expression">quantifier_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="quantifier_binding">quantifier_binding:</a></p><img border="0" src="diagram/quantifier_binding.svg" height="81" width="345" usemap="#quantifier_binding.map"><map name="quantifier_binding.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"><area shape="rect" coords="189,1,245,33" href="#_type" title="_type"><area shape="rect" coords="197,45,295,77" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#quantifier_bindings" title="quantifier_bindings">quantifier_bindings</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="lambda_expression">lambda_expression:</a></p><img border="0" src="diagram/lambda_expression.svg" height="69" width="477" usemap="#lambda_expression.map"><map name="lambda_expression.map"><area shape="rect" coords="29,1,157,33" href="#lambda_bindings" title="lambda_bindings"><area shape="rect" coords="253,33,309,65" href="#_type" title="_type"><area shape="rect" coords="349,1,447,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="lambda_binding">lambda_binding:</a></p><img border="0" src="diagram/lambda_binding.svg" height="113" width="313" usemap="#lambda_binding.map"><map name="lambda_binding.map"><area shape="rect" coords="49,1,175,33" href="#comma_bind_list" title="comma_bind_list"><area shape="rect" coords="49,45,103,77" href="#_bind" title="_bind"><area shape="rect" coords="187,77,243,109" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#lambda_bindings" title="lambda_bindings">lambda_bindings</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="lambda_bindings">lambda_bindings:</a></p><img border="0" src="diagram/lambda_bindings.svg" height="85" width="579" usemap="#lambda_bindings.map"><map name="lambda_bindings.map"><area shape="rect" coords="115,17,237,49" href="#lambda_binding" title="lambda_binding"><area shape="rect" coords="361,49,483,81" href="#lambda_binding" title="lambda_binding"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#lambda_expression" title="lambda_expression">lambda_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="if_expression">if_expression:</a></p><img border="0" src="diagram/if_expression.svg" height="69" width="639" usemap="#if_expression.map"><map name="if_expression.map"><area shape="rect" coords="123,1,221,33" href="#_expression" title="_expression"><area shape="rect" coords="287,1,385,33" href="#_expression" title="_expression"><area shape="rect" coords="491,33,589,65" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="while_expression">while_expression:</a></p><img border="0" src="diagram/while_expression.svg" height="37" width="443" usemap="#while_expression.map"><map name="while_expression.map"><area shape="rect" coords="151,1,249,33" href="#_expression" title="_expression"><area shape="rect" coords="315,1,413,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="loop_expression">loop_expression:</a></p><img border="0" src="diagram/loop_expression.svg" height="37" width="225" usemap="#loop_expression.map"><map name="loop_expression.map"><area shape="rect" coords="97,1,195,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="return_expression">return_expression:</a></p><img border="0" src="diagram/return_expression.svg" height="69" width="389" usemap="#return_expression.map"><map name="return_expression.map"><area shape="rect" coords="131,33,181,65" href="#label" title="label"><area shape="rect" coords="241,33,339,65" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="abort_expression">abort_expression:</a></p><img border="0" src="diagram/abort_expression.svg" height="69" width="273" usemap="#abort_expression.map"><map name="abort_expression.map"><area shape="rect" coords="125,33,223,65" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="match_expression">match_expression:</a></p><img border="0" src="diagram/match_expression.svg" height="37" width="457" usemap="#match_expression.map"><map name="match_expression.map"><area shape="rect" coords="157,1,255,33" href="#_expression" title="_expression"><area shape="rect" coords="321,1,427,33" href="#_match_body" title="_match_body"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_match_body">_match_body:</a></p><img border="0" src="diagram/_match_body.svg" height="85" width="523" usemap="#_match_body.map"><map name="_match_body.map"><area shape="rect" coords="117,17,209,49" href="#match_arm" title="match_arm"><area shape="rect" coords="333,49,425,81" href="#match_arm" title="match_arm"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#match_expression" title="match_expression">match_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="match_condition">match_condition:</a></p><img border="0" src="diagram/match_condition.svg" height="37" width="297" usemap="#match_condition.map"><map name="match_condition.map"><area shape="rect" coords="123,1,221,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#match_arm" title="match_arm">match_arm</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="match_arm">match_arm:</a></p><img border="0" src="diagram/match_arm.svg" height="69" width="495" usemap="#match_arm.map"><map name="match_arm.map"><area shape="rect" coords="29,1,103,33" href="#bind_list" title="bind_list"><area shape="rect" coords="143,33,267,65" href="#match_condition" title="match_condition"><area shape="rect" coords="367,1,465,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_match_body" title="_match_body">_match_body</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="call_expression">call_expression:</a></p><img border="0" src="diagram/call_expression.svg" height="37" width="279" usemap="#call_expression.map"><map name="call_expression.map"><area shape="rect" coords="29,1,161,33" href="#name_expression" title="name_expression"><area shape="rect" coords="181,1,249,33" href="#arg_list" title="arg_list"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="macro_call_expression">macro_call_expression:</a></p><img border="0" src="diagram/macro_call_expression.svg" height="69" width="495" usemap="#macro_call_expression.map"><map name="macro_call_expression.map"><area shape="rect" coords="29,1,193,33" href="#macro_module_access" title="macro_module_access"><area shape="rect" coords="233,33,357,65" href="#type_arguments" title="type_arguments"><area shape="rect" coords="397,1,465,33" href="#arg_list" title="arg_list"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="pack_expression">pack_expression:</a></p><img border="0" src="diagram/pack_expression.svg" height="37" width="345" usemap="#pack_expression.map"><map name="pack_expression.map"><area shape="rect" coords="29,1,161,33" href="#name_expression" title="name_expression"><area shape="rect" coords="181,1,315,33" href="#field_initialize_list" title="field_initialize_list"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="name_expression">name_expression:</a></p><img border="0" src="diagram/name_expression.svg" height="69" width="265" usemap="#name_expression.map"><map name="name_expression.map"><area shape="rect" coords="119,1,235,33" href="#module_access" title="module_access"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+            <li><a href="#bind_unpack" title="bind_unpack">bind_unpack</a></li>
+            <li><a href="#call_expression" title="call_expression">call_expression</a></li>
+            <li><a href="#pack_expression" title="pack_expression">pack_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="assign_expression">assign_expression:</a></p><img border="0" src="diagram/assign_expression.svg" height="37" width="369" usemap="#assign_expression.map"><map name="assign_expression.map"><area shape="rect" coords="29,1,171,33" href="#_unary_expression" title="_unary_expression"><area shape="rect" coords="241,1,339,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="binary_expression">binary_expression:</a></p><img border="0" src="diagram/binary_expression.svg" height="873" width="385" usemap="#binary_expression.map"><map name="binary_expression.map"><area shape="rect" coords="29,1,127,33" href="#_expression" title="_expression"><area shape="rect" coords="257,1,355,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_unary_expression">_unary_expression:</a></p><img border="0" src="diagram/_unary_expression.svg" height="213" width="289" usemap="#_unary_expression.map"><map name="_unary_expression.map"><area shape="rect" coords="49,1,183,33" href="#unary_expression" title="unary_expression"><area shape="rect" coords="49,45,191,77" href="#borrow_expression" title="borrow_expression"><area shape="rect" coords="49,89,223,121" href="#dereference_expression" title="dereference_expression"><area shape="rect" coords="49,133,239,165" href="#move_or_copy_expression" title="move_or_copy_expression"><area shape="rect" coords="49,177,183,209" href="#_expression_term" title="_expression_term"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+            <li><a href="#assign_expression" title="assign_expression">assign_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="unary_expression">unary_expression:</a></p><img border="0" src="diagram/unary_expression.svg" height="37" width="201" usemap="#unary_expression.map"><map name="unary_expression.map"><area shape="rect" coords="73,1,171,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_unary_expression" title="_unary_expression">_unary_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="dereference_expression">dereference_expression:</a></p><img border="0" src="diagram/dereference_expression.svg" height="37" width="205" usemap="#dereference_expression.map"><map name="dereference_expression.map"><area shape="rect" coords="77,1,175,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_unary_expression" title="_unary_expression">_unary_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="borrow_expression">borrow_expression:</a></p><img border="0" src="diagram/borrow_expression.svg" height="37" width="265" usemap="#borrow_expression.map"><map name="borrow_expression.map"><area shape="rect" coords="29,1,117,33" href="#_reference" title="_reference"><area shape="rect" coords="137,1,235,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_unary_expression" title="_unary_expression">_unary_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="move_or_copy_expression">move_or_copy_expression:</a></p><img border="0" src="diagram/move_or_copy_expression.svg" height="81" width="273" usemap="#move_or_copy_expression.map"><map name="move_or_copy_expression.map"><area shape="rect" coords="145,1,243,33" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_unary_expression" title="_unary_expression">_unary_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_reference">_reference:</a></p><img border="0" src="diagram/_reference.svg" height="81" width="169" usemap="#_reference.map"><map name="_reference.map"><area shape="rect" coords="49,45,119,77" href="#mut_ref" title="mut_ref"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#borrow_expression" title="borrow_expression">borrow_expression</a></li>
+            <li><a href="#ref_type" title="ref_type">ref_type</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_expression_term">_expression_term:</a></p><img border="0" src="diagram/_expression_term.svg" height="741" width="265" usemap="#_expression_term.map"><map name="_expression_term.map"><area shape="rect" coords="49,1,167,33" href="#call_expression" title="call_expression"><area shape="rect" coords="49,45,183,77" href="#break_expression" title="break_expression"><area shape="rect" coords="49,89,201,121" href="#continue_expression" title="continue_expression"><area shape="rect" coords="49,133,181,165" href="#name_expression" title="name_expression"><area shape="rect" coords="49,177,213,209" href="#macro_call_expression" title="macro_call_expression"><area shape="rect" coords="49,221,175,253" href="#pack_expression" title="pack_expression"><area shape="rect" coords="49,265,155,297" href="#_literal_value" title="_literal_value"><area shape="rect" coords="49,309,171,341" href="#unit_expression" title="unit_expression"><area shape="rect" coords="49,353,165,385" href="#expression_list" title="expression_list"><area shape="rect" coords="49,397,215,429" href="#annotation_expression" title="annotation_expression"><area shape="rect" coords="49,441,101,473" href="#block" title="block"><area shape="rect" coords="49,485,139,517" href="#spec_block" title="spec_block"><area shape="rect" coords="49,529,153,561" href="#if_expression" title="if_expression"><area shape="rect" coords="49,573,167,605" href="#dot_expression" title="dot_expression"><area shape="rect" coords="49,617,181,649" href="#index_expression" title="index_expression"><area shape="rect" coords="49,661,185,693" href="#vector_expression" title="vector_expression"><area shape="rect" coords="49,705,185,737" href="#match_expression" title="match_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_unary_expression" title="_unary_expression">_unary_expression</a></li>
+            <li><a href="#dot_expression" title="dot_expression">dot_expression</a></li>
+            <li><a href="#index_expression" title="index_expression">index_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="break_expression">break_expression:</a></p><img border="0" src="diagram/break_expression.svg" height="69" width="385" usemap="#break_expression.map"><map name="break_expression.map"><area shape="rect" coords="127,33,177,65" href="#label" title="label"><area shape="rect" coords="237,33,335,65" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="continue_expression">continue_expression:</a></p><img border="0" src="diagram/continue_expression.svg" height="69" width="247" usemap="#continue_expression.map"><map name="continue_expression.map"><area shape="rect" coords="147,33,197,65" href="#label" title="label"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="field_initialize_list">field_initialize_list:</a></p><img border="0" src="diagram/field_initialize_list.svg" height="85" width="495" usemap="#field_initialize_list.map"><map name="field_initialize_list.map"><area shape="rect" coords="117,17,195,49" href="#exp_field" title="exp_field"><area shape="rect" coords="319,49,397,81" href="#exp_field" title="exp_field"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#pack_expression" title="pack_expression">pack_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="arg_list">arg_list:</a></p><img border="0" src="diagram/arg_list.svg" height="85" width="531" usemap="#arg_list.map"><map name="arg_list.map"><area shape="rect" coords="115,17,213,49" href="#_expression" title="_expression"><area shape="rect" coords="337,49,435,81" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#call_expression" title="call_expression">call_expression</a></li>
+            <li><a href="#macro_call_expression" title="macro_call_expression">macro_call_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="expression_list">expression_list:</a></p><img border="0" src="diagram/expression_list.svg" height="113" width="373" usemap="#expression_list.map"><map name="expression_list.map"><area shape="rect" coords="95,45,193,77" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="unit_expression">unit_expression:</a></p><img border="0" src="diagram/unit_expression.svg" height="37" width="131"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="cast_expression">cast_expression:</a></p><img border="0" src="diagram/cast_expression.svg" height="37" width="287" usemap="#cast_expression.map"><map name="cast_expression.map"><area shape="rect" coords="29,1,127,33" href="#_expression" title="_expression"><area shape="rect" coords="201,1,257,33" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression" title="_expression">_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="annotation_expression">annotation_expression:</a></p><img border="0" src="diagram/annotation_expression.svg" height="37" width="369" usemap="#annotation_expression.map"><map name="annotation_expression.map"><area shape="rect" coords="75,1,173,33" href="#_expression" title="_expression"><area shape="rect" coords="237,1,293,33" href="#_type" title="_type"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="dot_expression">dot_expression:</a></p><img border="0" src="diagram/dot_expression.svg" height="37" width="391" usemap="#dot_expression.map"><map name="dot_expression.map"><area shape="rect" coords="29,1,163,33" href="#_expression_term" title="_expression_term"><area shape="rect" coords="227,1,361,33" href="#_expression_term" title="_expression_term"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="index_expression">index_expression:</a></p><img border="0" src="diagram/index_expression.svg" height="85" width="685" usemap="#index_expression.map"><map name="index_expression.map"><area shape="rect" coords="29,17,163,49" href="#_expression_term" title="_expression_term"><area shape="rect" coords="269,17,367,49" href="#_expression" title="_expression"><area shape="rect" coords="491,49,589,81" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="exp_field">exp_field:</a></p><img border="0" src="diagram/exp_field.svg" height="69" width="379" usemap="#exp_field.map"><map name="exp_field.map"><area shape="rect" coords="29,1,147,33" href="#_field_identifier" title="_field_identifier"><area shape="rect" coords="231,33,329,65" href="#_expression" title="_expression"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#field_initialize_list" title="field_initialize_list">field_initialize_list</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="bind_list">bind_list:</a></p><img border="0" src="diagram/bind_list.svg" height="125" width="225" usemap="#bind_list.map"><map name="bind_list.map"><area shape="rect" coords="49,1,103,33" href="#_bind" title="_bind"><area shape="rect" coords="49,45,175,77" href="#comma_bind_list" title="comma_bind_list"><area shape="rect" coords="49,89,143,121" href="#or_bind_list" title="or_bind_list"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#at_bind" title="at_bind">at_bind</a></li>
+            <li><a href="#bind_field" title="bind_field">bind_field</a></li>
+            <li><a href="#let_statement" title="let_statement">let_statement</a></li>
+            <li><a href="#match_arm" title="match_arm">match_arm</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="at_bind">at_bind:</a></p><img border="0" src="diagram/at_bind.svg" height="37" width="347" usemap="#at_bind.map"><map name="at_bind.map"><area shape="rect" coords="29,1,171,33" href="#_variable_identifier" title="_variable_identifier"><area shape="rect" coords="243,1,317,33" href="#bind_list" title="bind_list"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_bind" title="_bind">_bind</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="comma_bind_list">comma_bind_list:</a></p><img border="0" src="diagram/comma_bind_list.svg" height="85" width="443" usemap="#comma_bind_list.map"><map name="comma_bind_list.map"><area shape="rect" coords="115,17,169,49" href="#_bind" title="_bind"><area shape="rect" coords="293,49,347,81" href="#_bind" title="_bind"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_list" title="bind_list">bind_list</a></li>
+            <li><a href="#lambda_binding" title="lambda_binding">lambda_binding</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="or_bind_list">or_bind_list:</a></p><img border="0" src="diagram/or_bind_list.svg" height="113" width="583" usemap="#or_bind_list.map"><map name="or_bind_list.map"><area shape="rect" coords="221,45,275,77" href="#_bind" title="_bind"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_list" title="bind_list">bind_list</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="mut_bind_var">mut_bind_var:</a></p><img border="0" src="diagram/mut_bind_var.svg" height="37" width="267" usemap="#mut_bind_var.map"><map name="mut_bind_var.map"><area shape="rect" coords="95,1,237,33" href="#_variable_identifier" title="_variable_identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_bind" title="_bind">_bind</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_bind">_bind:</a></p><img border="0" src="diagram/_bind.svg" height="213" width="241" usemap="#_bind.map"><map name="_bind.map"><area shape="rect" coords="49,1,157,33" href="#mut_bind_var" title="mut_bind_var"><area shape="rect" coords="49,45,191,77" href="#_variable_identifier" title="_variable_identifier"><area shape="rect" coords="49,89,149,121" href="#bind_unpack" title="bind_unpack"><area shape="rect" coords="49,133,117,165" href="#at_bind" title="at_bind"><area shape="rect" coords="49,177,155,209" href="#_literal_value" title="_literal_value"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_list" title="bind_list">bind_list</a></li>
+            <li><a href="#comma_bind_list" title="comma_bind_list">comma_bind_list</a></li>
+            <li><a href="#lambda_binding" title="lambda_binding">lambda_binding</a></li>
+            <li><a href="#or_bind_list" title="or_bind_list">or_bind_list</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="bind_unpack">bind_unpack:</a></p><img border="0" src="diagram/bind_unpack.svg" height="69" width="339" usemap="#bind_unpack.map"><map name="bind_unpack.map"><area shape="rect" coords="29,1,161,33" href="#name_expression" title="name_expression"><area shape="rect" coords="201,33,289,65" href="#bind_fields" title="bind_fields"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_bind" title="_bind">_bind</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="bind_fields">bind_fields:</a></p><img border="0" src="diagram/bind_fields.svg" height="81" width="257" usemap="#bind_fields.map"><map name="bind_fields.map"><area shape="rect" coords="49,1,207,33" href="#bind_positional_fields" title="bind_positional_fields"><area shape="rect" coords="49,45,189,77" href="#bind_named_fields" title="bind_named_fields"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_unpack" title="bind_unpack">bind_unpack</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="bind_positional_fields">bind_positional_fields:</a></p><img border="0" src="diagram/bind_positional_fields.svg" height="129" width="603" usemap="#bind_positional_fields.map"><map name="bind_positional_fields.map"><area shape="rect" coords="135,17,217,49" href="#bind_field" title="bind_field"><area shape="rect" coords="135,61,249,93" href="#mut_bind_field" title="mut_bind_field"><area shape="rect" coords="393,49,475,81" href="#bind_field" title="bind_field"><area shape="rect" coords="393,93,507,125" href="#mut_bind_field" title="mut_bind_field"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_fields" title="bind_fields">bind_fields</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="bind_named_fields">bind_named_fields:</a></p><img border="0" src="diagram/bind_named_fields.svg" height="129" width="607" usemap="#bind_named_fields.map"><map name="bind_named_fields.map"><area shape="rect" coords="137,17,219,49" href="#bind_field" title="bind_field"><area shape="rect" coords="137,61,251,93" href="#mut_bind_field" title="mut_bind_field"><area shape="rect" coords="395,49,477,81" href="#bind_field" title="bind_field"><area shape="rect" coords="395,93,509,125" href="#mut_bind_field" title="mut_bind_field"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_fields" title="bind_fields">bind_fields</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="mut_bind_field">mut_bind_field:</a></p><img border="0" src="diagram/mut_bind_field.svg" height="37" width="207" usemap="#mut_bind_field.map"><map name="mut_bind_field.map"><area shape="rect" coords="95,1,177,33" href="#bind_field" title="bind_field"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_named_fields" title="bind_named_fields">bind_named_fields</a></li>
+            <li><a href="#bind_positional_fields" title="bind_positional_fields">bind_positional_fields</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="bind_field">bind_field:</a></p><img border="0" src="diagram/bind_field.svg" height="113" width="351" usemap="#bind_field.map"><map name="bind_field.map"><area shape="rect" coords="49,1,123,33" href="#bind_list" title="bind_list"><area shape="rect" coords="207,33,281,65" href="#bind_list" title="bind_list"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#bind_named_fields" title="bind_named_fields">bind_named_fields</a></li>
+            <li><a href="#bind_positional_fields" title="bind_positional_fields">bind_positional_fields</a></li>
+            <li><a href="#mut_bind_field" title="mut_bind_field">mut_bind_field</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_literal_value">_literal_value:</a></p><img border="0" src="diagram/_literal_value.svg" height="213" width="235" usemap="#_literal_value.map"><map name="_literal_value.map"><area shape="rect" coords="49,1,163,33" href="#address_literal" title="address_literal"><area shape="rect" coords="49,45,139,77" href="#bool_literal" title="bool_literal"><area shape="rect" coords="49,89,141,121" href="#num_literal" title="num_literal"><area shape="rect" coords="49,133,181,165" href="#hex_string_literal" title="hex_string_literal"><area shape="rect" coords="49,177,185,209" href="#byte_string_literal" title="byte_string_literal"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_bind" title="_bind">_bind</a></li>
+            <li><a href="#_expression_term" title="_expression_term">_expression_term</a></li>
+            <li><a href="#annotation_expr" title="annotation_expr">annotation_expr</a></li>
+            <li><a href="#annotation_list" title="annotation_list">annotation_list</a></li>
+            <li><a href="#spec_property" title="spec_property">spec_property</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="mut_ref">mut_ref:</a></p><img border="0" src="diagram/mut_ref.svg" height="37" width="155"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_reference" title="_reference">_reference</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="block_identifier">block_identifier:</a></p><img border="0" src="diagram/block_identifier.svg" height="37" width="153" usemap="#block_identifier.map"><map name="block_identifier.map"><area shape="rect" coords="29,1,79,33" href="#label" title="label"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#identified_expression" title="identified_expression">identified_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="label">label:</a></p><img border="0" src="diagram/label.svg" height="37" width="179" usemap="#label.map"><map name="label.map"><area shape="rect" coords="73,1,149,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#block_identifier" title="block_identifier">block_identifier</a></li>
+            <li><a href="#break_expression" title="break_expression">break_expression</a></li>
+            <li><a href="#continue_expression" title="continue_expression">continue_expression</a></li>
+            <li><a href="#return_expression" title="return_expression">return_expression</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="address_literal">address_literal:</a></p><img border="0" src="diagram/address_literal.svg" height="207" width="349"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_literal_value" title="_literal_value">_literal_value</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="bool_literal">bool_literal:</a></p><img border="0" src="diagram/bool_literal.svg" height="81" width="151"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_literal_value" title="_literal_value">_literal_value</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="num_literal">num_literal:</a></p><img border="0" src="diagram/num_literal.svg" height="367" width="413"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_literal_value" title="_literal_value">_literal_value</a></li>
+            <li><a href="#module_identity" title="module_identity">module_identity</a></li>
+            <li><a href="#use_module_members" title="use_module_members">use_module_members</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="hex_string_literal">hex_string_literal:</a></p><img border="0" src="diagram/hex_string_literal.svg" height="159" width="261"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_literal_value" title="_literal_value">_literal_value</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="byte_string_literal">byte_string_literal:</a></p><img border="0" src="diagram/byte_string_literal.svg" height="115" width="261"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_literal_value" title="_literal_value">_literal_value</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_module_identifier">_module_identifier:</a></p><img border="0" src="diagram/_module_identifier.svg" height="37" width="135" usemap="#_module_identifier.map"><map name="_module_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_access" title="module_access">module_access</a></li>
+            <li><a href="#module_identity" title="module_identity">module_identity</a></li>
+            <li><a href="#use_module" title="use_module">use_module</a></li>
+            <li><a href="#use_module_members" title="use_module_members">use_module_members</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_struct_identifier">_struct_identifier:</a></p><img border="0" src="diagram/_struct_identifier.svg" height="37" width="135" usemap="#_struct_identifier.map"><map name="_struct_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_struct_signature" title="_struct_signature">_struct_signature</a></li>
+            <li><a href="#spec_block_target_schema" title="spec_block_target_schema">spec_block_target_schema</a></li>
+            <li><a href="#spec_block_target_struct" title="spec_block_target_struct">spec_block_target_struct</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_enum_identifier">_enum_identifier:</a></p><img border="0" src="diagram/_enum_identifier.svg" height="37" width="135" usemap="#_enum_identifier.map"><map name="_enum_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_enum_signature" title="_enum_signature">_enum_signature</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_variant_identifier">_variant_identifier:</a></p><img border="0" src="diagram/_variant_identifier.svg" height="37" width="135" usemap="#_variant_identifier.map"><map name="_variant_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#variant" title="variant">variant</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_function_identifier">_function_identifier:</a></p><img border="0" src="diagram/_function_identifier.svg" height="37" width="135" usemap="#_function_identifier.map"><map name="_function_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_function_signature" title="_function_signature">_function_signature</a></li>
+            <li><a href="#_macro_signature" title="_macro_signature">_macro_signature</a></li>
+            <li><a href="#_spec_function_signature" title="_spec_function_signature">_spec_function_signature</a></li>
+            <li><a href="#spec_block_target_fun" title="spec_block_target_fun">spec_block_target_fun</a></li>
+            <li><a href="#use_fun" title="use_fun">use_fun</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_variable_identifier">_variable_identifier:</a></p><img border="0" src="diagram/_variable_identifier.svg" height="37" width="135" usemap="#_variable_identifier.map"><map name="_variable_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#_bind" title="_bind">_bind</a></li>
+            <li><a href="#at_bind" title="at_bind">at_bind</a></li>
+            <li><a href="#function_parameter" title="function_parameter">function_parameter</a></li>
+            <li><a href="#mut_bind_var" title="mut_bind_var">mut_bind_var</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_field_identifier">_field_identifier:</a></p><img border="0" src="diagram/_field_identifier.svg" height="37" width="135" usemap="#_field_identifier.map"><map name="_field_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#exp_field" title="exp_field">exp_field</a></li>
+            <li><a href="#field_annotation" title="field_annotation">field_annotation</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="_type_identifier">_type_identifier:</a></p><img border="0" src="diagram/_type_identifier.svg" height="37" width="135" usemap="#_type_identifier.map"><map name="_type_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="_type_parameter_identifier">_type_parameter_identifier:</a></p><img border="0" src="diagram/_type_parameter_identifier.svg" height="37" width="135" usemap="#_type_parameter_identifier.map"><map name="_type_parameter_identifier.map"><area shape="rect" coords="29,1,105,33" href="#identifier" title="identifier"></map><p>referenced by:
+         
+         <ul>
+            <li><a href="#type_parameter" title="type_parameter">type_parameter</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="identifier">identifier:</a></p><img border="0" src="diagram/identifier.svg" height="291" width="459"><p>referenced by:
+         
+         <ul>
+            <li><a href="#_enum_identifier" title="_enum_identifier">_enum_identifier</a></li>
+            <li><a href="#_field_identifier" title="_field_identifier">_field_identifier</a></li>
+            <li><a href="#_function_identifier" title="_function_identifier">_function_identifier</a></li>
+            <li><a href="#_module_identifier" title="_module_identifier">_module_identifier</a></li>
+            <li><a href="#_spec_block_target" title="_spec_block_target">_spec_block_target</a></li>
+            <li><a href="#_struct_identifier" title="_struct_identifier">_struct_identifier</a></li>
+            <li><a href="#_type_identifier" title="_type_identifier">_type_identifier</a></li>
+            <li><a href="#_type_parameter_identifier" title="_type_parameter_identifier">_type_parameter_identifier</a></li>
+            <li><a href="#_variable_identifier" title="_variable_identifier">_variable_identifier</a></li>
+            <li><a href="#_variant_identifier" title="_variant_identifier">_variant_identifier</a></li>
+            <li><a href="#annotation_expr" title="annotation_expr">annotation_expr</a></li>
+            <li><a href="#annotation_list" title="annotation_list">annotation_list</a></li>
+            <li><a href="#constant" title="constant">constant</a></li>
+            <li><a href="#friend_access" title="friend_access">friend_access</a></li>
+            <li><a href="#label" title="label">label</a></li>
+            <li><a href="#module_access" title="module_access">module_access</a></li>
+            <li><a href="#quantifier_binding" title="quantifier_binding">quantifier_binding</a></li>
+            <li><a href="#spec_let" title="spec_let">spec_let</a></li>
+            <li><a href="#spec_property" title="spec_property">spec_property</a></li>
+            <li><a href="#spec_variable" title="spec_variable">spec_variable</a></li>
+            <li><a href="#use_member" title="use_member">use_member</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="macro_identifier">macro_identifier:</a></p><img border="0" src="diagram/macro_identifier.svg" height="291" width="327"><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="_reserved_identifier">_reserved_identifier:</a></p><img border="0" src="diagram/_reserved_identifier.svg" height="81" width="159"><p>referenced by:
+         
+         <ul>
+            <li><a href="#module_access" title="module_access">module_access</a></li>
+         </ul>
+      </p><br><p style="font-size: 14px; font-weight:bold"><a name="line_comment">line_comment:</a></p><img border="0" src="diagram/line_comment.svg" height="71" width="179"><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="_whitespace">_whitespace:</a></p><img border="0" src="diagram/_whitespace.svg" height="257" width="173"><p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="block_comment">block_comment:</a></p><img border="0" src="diagram/block_comment.svg" height="115" width="389"><p>no references</p><br><hr>
+      <p>
+         <table border="0" class="signature">
+            <tr>
+               <td style="width: 100%">&nbsp;</td>
+               <td valign="top">
+                  <nobr class="signature">... generated by <a name="Railroad-Diagram-Generator" class="signature" title="https://www.bottlecaps.de/rr/ui" href="https://www.bottlecaps.de/rr/ui" target="_blank">RR - Railroad Diagram Generator</a></nobr>
+               </td>
+               <td><a name="Railroad-Diagram-Generator" title="https://www.bottlecaps.de/rr/ui" href="https://www.bottlecaps.de/rr/ui" target="_blank"><img border="0" src="diagram/Railroad-Diagram-Generator.svg" height="16" width="16"></a></td>
+            </tr>
+         </table>
+      </p>
+      <div id="volume-booster-visusalizer">
+         <div class="sound">
+            <div class="sound-icon"></div>
+            <div class="sound-wave sound-wave_one"></div>
+            <div class="sound-wave sound-wave_two"></div>
+            <div class="sound-wave sound-wave_three"></div>
+         </div>
+         <div class="segments-box">
+            <div data-range="1-20" class="segment"><span></span></div>
+            <div data-range="21-40" class="segment"><span></span></div>
+            <div data-range="41-60" class="segment"><span></span></div>
+            <div data-range="61-80" class="segment"><span></span></div>
+            <div data-range="81-100" class="segment"><span></span></div>
+         </div>
+      </div>
+   </body>
+</html>
