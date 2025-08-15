@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="773" height="129">
+   <defs>
+      <style type="text/css">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #332900; stroke-width: 1;}
+    .bold-line            {stroke: #141000; shape-rendering: crispEdges; stroke-width: 2;}
+    .thin-line            {stroke: #1F1800; shape-rendering: crispEdges}
+    .filled               {fill: #332900; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #141000;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1A1400;
+                            font-weight: normal;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1F1800;
+                            font-weight: normal;
+                          }
+    rect, circle, polygon {fill: #332900; stroke: #332900;}
+    rect.terminal         {fill: #FFDB4D; stroke: #332900; stroke-width: 1;}
+    rect.nonterminal      {fill: #FFEC9E; stroke: #332900; stroke-width: 1;}
+    rect.text             {fill: none; stroke: none;}
+    polygon.regexp        {fill: #FFF4C7; stroke: #332900; stroke-width: 1;}
+  </style>
+   </defs>
+   <polygon points="9 61 1 57 1 65"/>
+   <polygon points="17 61 9 57 9 65"/>
+   <rect x="51" y="79" width="28" height="32" rx="10"/>
+   <rect x="49"
+         y="77"
+         width="28"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="97">$</text>
+   <rect x="139" y="79" width="80" height="32" rx="10"/>
+   <rect x="137"
+         y="77"
+         width="80"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="147" y="97">phantom</text>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#_type_parameter_identifier"
+      xlink:title="_type_parameter_identifier">
+      <rect x="259" y="47" width="194" height="32"/>
+      <rect x="257" y="45" width="194" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="267" y="65">_type_parameter_identifier</text>
+   </a>
+   <rect x="493" y="47" width="24" height="32" rx="10"/>
+   <rect x="491"
+         y="45"
+         width="24"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="501" y="65">:</text>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#ability"
+      xlink:title="ability">
+      <rect x="557" y="47" width="58" height="32"/>
+      <rect x="555" y="45" width="58" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="565" y="65">ability</text>
+   </a>
+   <rect x="557" y="3" width="30" height="32" rx="10"/>
+   <rect x="555"
+         y="1"
+         width="30"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="565" y="21">+</text>
+   <rect x="675" y="79" width="30" height="32" rx="10"/>
+   <rect x="673"
+         y="77"
+         width="30"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="683" y="97">+</text>
+   <path class="line"
+         d="m17 61 h2 m20 0 h10 m0 0 h38 m-68 0 h20 m48 0 h20 m-88 0 q10 0 10 10 m68 0 q0 -10 10 -10 m-78 10 v12 m68 0 v-12 m-68 12 q0 10 10 10 m48 0 q10 0 10 -10 m-58 10 h10 m28 0 h10 m40 -32 h10 m0 0 h90 m-120 0 h20 m100 0 h20 m-140 0 q10 0 10 10 m120 0 q0 -10 10 -10 m-130 10 v12 m120 0 v-12 m-120 12 q0 10 10 10 m100 0 q10 0 10 -10 m-110 10 h10 m80 0 h10 m20 -32 h10 m194 0 h10 m20 0 h10 m24 0 h10 m20 0 h10 m58 0 h10 m-98 0 l20 0 m-1 0 q-9 0 -9 -10 l0 -24 q0 -10 10 -10 m78 44 l20 0 m-20 0 q10 0 10 -10 l0 -24 q0 -10 -10 -10 m-78 0 h10 m30 0 h10 m0 0 h28 m40 44 h10 m0 0 h40 m-70 0 h20 m50 0 h20 m-90 0 q10 0 10 10 m70 0 q0 -10 10 -10 m-80 10 v12 m70 0 v-12 m-70 12 q0 10 10 10 m50 0 q10 0 10 -10 m-60 10 h10 m30 0 h10 m-252 -32 h20 m252 0 h20 m-292 0 q10 0 10 10 m272 0 q0 -10 10 -10 m-282 10 v46 m272 0 v-46 m-272 46 q0 10 10 10 m252 0 q10 0 10 -10 m-262 10 h10 m0 0 h242 m23 -66 h-3"/>
+   <polygon points="763 61 771 57 771 65"/>
+   <polygon points="763 61 755 57 755 65"/>
+</svg>
